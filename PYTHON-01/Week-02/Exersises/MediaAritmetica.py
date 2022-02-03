@@ -1,0 +1,18 @@
+# Faça um programa em Python que receba quatro notas, calcule e imprima a média aritmética.
+# Observe o exemplo abaixo:
+# Entrada de Dados:
+# Digite a primeira nota: 4
+# Digite a segunda nota: 5
+# Digite a terceira nota: 6
+# Digite a quarta nota: 7
+# Saída de Dados:
+# A média aritmética é 5.5
+
+nota01 = float(input("Digite a primeira nota:"))
+nota02 = float(input("Digite a segunda nota:"))
+nota03 = float(input("Digite a terceira nota:"))
+nota04 = float(input("Digite a quarta nota:"))
+
+mediaAritmetica = (nota01 + nota02 + nota03 + nota04) / 4
+
+print(f"A média aritmética é {mediaAritmetica}")
